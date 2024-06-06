@@ -1,0 +1,11 @@
+.isActive {
+    font-weight: bold;
+
+}
+.pending{
+    color: #ffffff;
+}
+
+.active{
+    font-weight: bold;
+}

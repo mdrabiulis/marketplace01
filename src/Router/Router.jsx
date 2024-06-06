@@ -41,6 +41,10 @@ const Router = createBrowserRouter([
         path: "/AboutUs",
         element: <AboutUs></AboutUs>,
       },
+      {
+        path: "/messages22",
+        element: <AboutUs></AboutUs>,
+      },
     ],
   },
 ]);

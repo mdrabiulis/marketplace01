@@ -1,106 +1,78 @@
 import { NavLink } from "react-router-dom";
+import "./Navbar.css";
 
 const Navbar = () => {
   return (
-    <div className="bg-blue-400 ">
-      <ul className="flex justify-end gap-4">
-      {/* home */}
-      <NavLink
-        to="/home"
-        style={({ isActive, isPending, isTransitioning }) => {
-          return {
-            fontWeight: isActive ? "bold" : "",
-            color: isPending ? "red" : "black",
-            viewTransitionName: isTransitioning ? "slide" : "",
-          };
-        }}
-      >
-        Home
-      </NavLink>
+    <div className="bg-indigo-500 ">
+      <ul className="flex justify-end gap-8 p-7">
+        {/* home */}
+        <NavLink
+          to="/home"
+          className={({ isActive, isPending }) =>
+            isPending ? "pending" : isActive ? "active" : "pending"
+          }
+        >
+          Home
+        </NavLink>
 
-      {/* Service */}
-      <NavLink
-        to="/service"
-        style={({ isActive, isPending, isTransitioning }) => {
-          return {
-            fontWeight: isActive ? "bold" : "",
-            color: isPending ? "red" : "black",
-            viewTransitionName: isTransitioning ? "slide" : "",
-          };
-        }}
-      >
-        Service
-      </NavLink>
+        {/* Service */}
+        <NavLink
+          to="/service"
+          className={({ isActive, isPending }) =>
+            isPending ? "pending" : isActive ? "active" : "pending"
+          }
+        >
+          Service
+        </NavLink>
+        {/* AboutUs */}
+        <NavLink
+          to="/aboutUs"
+          className={({ isActive, isPending }) =>
+            isPending ? "pending" : isActive ? "active" : "pending"
+          }
+        >
+          AboutUs
+        </NavLink>
 
-      {/* AboutUs */}
-      <NavLink
-        to="AboutUs"
-        style={({ isActive, isPending, isTransitioning }) => {
-          return {
-            fontWeight: isActive ? "bold" : "",
-            color: isPending ? "red" : "black",
-            viewTransitionName: isTransitioning ? "slide" : "",
-          };
-        }}
-      >
-       AboutUs
-      </NavLink>
+        {/* Page01 */}
+        <NavLink
+          to="/page01"
+          className={({ isActive, isPending }) =>
+            isPending ? "pending" : isActive ? "active" : "pending"
+          }
+        >
+          Page01
+        </NavLink>
 
-      {/* Page01 */}
-      <NavLink
-        to="/Page01"
-        style={({ isActive, isPending, isTransitioning }) => {
-          return {
-            fontWeight: isActive ? "bold" : "",
-            color: isPending ? "red" : "black",
-            viewTransitionName: isTransitioning ? "slide" : "",
-          };
-        }}
-      >
-        Page01
-      </NavLink>
+        {/* Page02 */}
+        <NavLink
+          to="/page02"
+          className={({ isActive, isPending }) =>
+            isPending ? "pending" : isActive ? "active" : "pending"
+          }
+        >
+          Page02
+        </NavLink>
 
-      {/* Page02 */}
-      <NavLink
-        to="/Page02"
-        style={({ isActive, isPending, isTransitioning }) => {
-          return {
-            fontWeight: isActive ? "bold" : "",
-            color: isPending ? "red" : "black",
-            viewTransitionName: isTransitioning ? "slide" : "",
-          };
-        }}
-      >
-        Page02
-      </NavLink>
+        {/* Page03 */}
+        <NavLink
+          to="/page03"
+          className={({ isActive, isPending }) =>
+            isPending ? "pending" : isActive ? "active" : "pending"
+          }
+        >
+          Page03
+        </NavLink>
 
-      {/* Page03 */}
-      <NavLink
-        to="/Page03"
-        style={({ isActive, isPending, isTransitioning }) => {
-          return {
-            fontWeight: isActive ? "bold" : "",
-            color: isPending ? "red" : "black",
-            viewTransitionName: isTransitioning ? "slide" : "",
-          };
-        }}
-      >
-        Page03
-      </NavLink>
-
-      {/* Messages */}
-      <NavLink
-        to="/messages"
-        style={({ isActive, isPending, isTransitioning }) => {
-          return {
-            fontWeight: isActive ? "bold" : "",
-            color: isPending ? "red" : "black",
-            viewTransitionName: isTransitioning ? "slide" : "",
-          };
-        }}
-      >
-        Messages
-      </NavLink>
+        {/* Messages */}
+        <NavLink
+          to="/messages"
+          className={({ isActive, isPending }) =>
+            isPending ? "pending" : isActive ? "active" : "pending"
+          }
+        >
+          Messages
+        </NavLink>
       </ul>
     </div>
   );
