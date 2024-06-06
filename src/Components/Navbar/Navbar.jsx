@@ -4,9 +4,9 @@ import "./Navbar.css";
 const Navbar = () => {
   return (
     <div className="bg-indigo-500 ">
-      <ul className="flex justify-end gap-8 p-7">
+      <ul className="flex justify-end gap-8 p-7 ">
         {/* home */}
-        <NavLink
+        <NavLink 
           to="/home"
           className={({ isActive, isPending }) =>
             isPending ? "pending" : isActive ? "active" : "pending"
