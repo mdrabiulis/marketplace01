@@ -10,7 +10,7 @@ const Layout = () => {
       <div className="max-w-full">
         <Navbar></Navbar>
         <div className="flex max-w-full justify-between">
-          <div className="bg-gray-100 w-[30%]">
+          <div className="bg-gray-100 w-[30%] z-50">
             <ProductCategory></ProductCategory>
           </div>
           <div className="max-w-[70%]">

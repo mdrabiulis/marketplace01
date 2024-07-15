@@ -7,22 +7,131 @@ const ProductCategory = () => {
   return (
     <div className="pl-40 pt-9">
       <ul className="">
-        <li className="hover:bg-sky-700 ">
+        <li>
           <Link className="flex justify-between pr-8  items-center " to={"/"}>
-            Smartphones <GoChevronRight className="w-6 h-6"></GoChevronRight>
+            Smartphones
+            {/* <div className="dropdown dropdown-right dropdown-end ">
+              <div tabIndex={0} role="button" className="btn m-1 ">
+                <GoChevronRight className="w-6 h-6"></GoChevronRight>
+              </div>
+              <ul
+                tabIndex={0}
+                className="dropdown-content menu bg-base-100 rounded-box    w-52 p-2 shadow "
+              >
+                <li>
+                  <a>Item 1</a>
+                </li>
+                <li>
+                  <a>Item 2</a>
+                </li>
+              </ul>
+            </div> */}
+            <div className="dropdown  dropdown-right">
+              <div tabIndex={0} role="button" className="">
+                <GoChevronRight className="w-6 h-6"></GoChevronRight>
+              </div>
+              <ul
+                tabIndex={0}
+                // className="dropdown-content menu bg-base-100 rounded-box z-[1] w-24 h-96 ml-5 p-2 shadow overscroll-contain"
+                className="dropdown-content  bg-base-100 rounded-box z-[1] w-80 h-96 ml-5 p-2 shadow overflow-y-scroll overflow-x-hidden "
+              >
+                <li>
+                  <a>Item 1 Item 1Item 1Item 1</a>
+                </li>
+                <li>
+                  <a>Item 2</a>
+                </li>
+                
+              </ul>
+            </div>
           </Link>
-          <ul className="">
-            <li>a</li>
-            <li>d</li>
-            <li>g</li>
-            <li>h</li>
-            <li>a</li>
-          </ul>
         </li>
 
         <li className="">
           <Link className="flex justify-between pr-8  items-center " to={"/"}>
-            Smartphones <GoChevronRight className="w-6 h-6"></GoChevronRight>
+            Smartphones{" "}
+            <div className="dropdown  dropdown-right">
+              <div tabIndex={0} role="button" className="">
+                <GoChevronRight className="w-6 h-6"></GoChevronRight>
+              </div>
+              <ul
+                tabIndex={0}
+                className="dropdown-content  bg-base-100 rounded-box z-[1] w-80 h-96 ml-5 p-2 shadow overflow-y-scroll overflow-x-hidden "
+              >
+                <li>
+                  <a>Item 1</a>
+                </li>
+                <li>
+                  <a>Item 2</a>
+                </li>
+                <li>
+                  <a>Item 1</a>
+                </li>
+                <li>
+                  <a>Item 2</a>
+                </li>
+                <li>
+                  <a>Item 1</a>
+                </li>
+                <li>
+                  <a>Item 2</a>
+                </li>
+                <li>
+                  <a>Item 1</a>
+                </li>
+                <li>
+                  <a>Item 2</a>
+                </li>
+                <li>
+                  <a>Item 1</a>
+                </li>
+                <li>
+                  <a>Item 2</a>
+                </li>
+                <li>
+                  <a>Item 1</a>
+                </li>
+                <li>
+                  <a>Item 2</a>
+                </li>
+                <li>
+                  <a>Item 1</a>
+                </li>
+                <li>
+                  <a>Item 2</a>
+                </li>
+                <li>
+                  <a>Item 1</a>
+                </li>
+                <li>
+                  <a>Item 2</a>
+                </li>
+                <li>
+                  <a>Item 1</a>
+                </li>
+                <li>
+                  <a>Item 2</a>
+                </li>
+                <li>
+                  <a>Item 1</a>
+                </li>
+                <li>
+                  <a>Item 2</a>
+                </li>
+                <li>
+                  <a>Item 1</a>
+                </li>
+                <li>
+                  <a>Item 2</a>
+                </li>
+                <li>
+                  <a>Item 1</a>
+                </li>
+                <li>
+                  <a>Item 2</a>
+                </li>
+              </ul>
+            </div>
           </Link>
         </li>
         <li>
@@ -30,7 +139,89 @@ const ProductCategory = () => {
             className="flex justify-between pr-8 items-center gap-24"
             to={"/"}
           >
-            Lifestyle <GoChevronRight className="w-6 h-6"></GoChevronRight>
+            Lifestyle{" "}
+            <div className="dropdown  dropdown-right  ">
+              <div tabIndex={0} role="button" className="">
+                <GoChevronRight className="w-6 h-6"></GoChevronRight>
+              </div>
+              <ul
+                tabIndex={0}
+                className="dropdown-content  bg-base-100 rounded-box z-[1] w-80 h-96 ml-5 p-2 shadow overflow-y-scroll overflow-x-hidden "
+              >
+                <li>
+                  <a>Item 1</a>
+                </li>
+                <li>
+                  <a>Item 2</a>
+                </li>
+                <li>
+                  <a>Item 1</a>
+                </li>
+                <li>
+                  <a>Item 2</a>
+                </li>
+                <li>
+                  <a>Item 1</a>
+                </li>
+                <li>
+                  <a>Item 2</a>
+                </li>
+                <li>
+                  <a>Item 1</a>
+                </li>
+                <li>
+                  <a>Item 2</a>
+                </li>
+                <li>
+                  <a>Item 1</a>
+                </li>
+                <li>
+                  <a>Item 2</a>
+                </li>
+                <li>
+                  <a>Item 1</a>
+                </li>
+                <li>
+                  <a>Item 2</a>
+                </li>
+                <li>
+                  <a>Item 1</a>
+                </li>
+                <li>
+                  <a>Item 2</a>
+                </li>
+                <li>
+                  <a>Item 1</a>
+                </li>
+                <li>
+                  <a>Item 2</a>
+                </li>
+                <li>
+                  <a>Item 1</a>
+                </li>
+                <li>
+                  <a>Item 2</a>
+                </li>
+                <li>
+                  <a>Item 1</a>
+                </li>
+                <li>
+                  <a>Item 2</a>
+                </li>
+                <li>
+                  <a>Item 1</a>
+                </li>
+                <li>
+                  <a>Item 2</a>
+                </li>
+                <li>
+                  <a>Item 1</a>
+                </li>
+                <li>
+                  <a>Item 2</a>
+                </li>
+              </ul>
+            </div>
           </Link>
         </li>
         <li>
@@ -65,7 +256,88 @@ const ProductCategory = () => {
             to={"/"}
           >
             Electronics & Appliances{" "}
-            <GoChevronRight className="w-6 h-6"></GoChevronRight>
+            <div className="dropdown dropdown-right  ">
+              <div tabIndex={0} role="button" className="">
+                <GoChevronRight className="w-6 h-6"></GoChevronRight>
+              </div>
+              <ul
+                tabIndex={0}
+                className="dropdown-content  bg-base-100 rounded-box z-[1] w-80 h-96 ml-5 p-2 shadow overflow-y-scroll overflow-x-hidden "
+              >
+                <li>
+                  <a>Item 1</a>
+                </li>
+                <li>
+                  <a>Item 2</a>
+                </li>
+                <li>
+                  <a>Item 1</a>
+                </li>
+                <li>
+                  <a>Item 2</a>
+                </li>
+                <li>
+                  <a>Item 1</a>
+                </li>
+                <li>
+                  <a>Item 2</a>
+                </li>
+                <li>
+                  <a>Item 1</a>
+                </li>
+                <li>
+                  <a>Item 2</a>
+                </li>
+                <li>
+                  <a>Item 1</a>
+                </li>
+                <li>
+                  <a>Item 2</a>
+                </li>
+                <li>
+                  <a>Item 1</a>
+                </li>
+                <li>
+                  <a>Item 2</a>
+                </li>
+                <li>
+                  <a>Item 1</a>
+                </li>
+                <li>
+                  <a>Item 2</a>
+                </li>
+                <li>
+                  <a>Item 1</a>
+                </li>
+                <li>
+                  <a>Item 2</a>
+                </li>
+                <li>
+                  <a>Item 1</a>
+                </li>
+                <li>
+                  <a>Item 2</a>
+                </li>
+                <li>
+                  <a>Item 1</a>
+                </li>
+                <li>
+                  <a>Item 2</a>
+                </li>
+                <li>
+                  <a>Item 1</a>
+                </li>
+                <li>
+                  <a>Item 2</a>
+                </li>
+                <li>
+                  <a>Item 1</a>
+                </li>
+                <li>
+                  <a>Item 2</a>
+                </li>
+              </ul>
+            </div>
           </Link>
         </li>
       </ul>
